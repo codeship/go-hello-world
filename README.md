@@ -1,5 +1,5 @@
 # go-hello-world
-A simple hello-world application written in Go to illustrate multi-stage builds, and the builder pattern
+A simple hello-world application written in Go to illustrate multi-stage builds in Docker 17.05, and the builder pattern
 
 `docker build -t single-stage -f Dockerfile.single .`
 
@@ -13,4 +13,4 @@ single-stage        latest              58328409dbf7        2 minutes ago       
 multi-stage         latest              9af3c2a2bf40        23 minutes ago      5.54MB
 ```
 
-# 😱
+😱
