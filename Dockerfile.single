@@ -1,7 +1,4 @@
-# first stage does the building
-# for UX purposes, I'm naming this stage `build-stage`
-
-FROM golang:1.8 as build-stage
+FROM golang:1.8
 WORKDIR /go/src/github.com/codeship/go-hello-world
 COPY hello-world.go .
 RUN go build -o hello-world .
