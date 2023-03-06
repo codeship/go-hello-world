@@ -6,6 +6,7 @@ metadata:
     github.com/project-slug: binkkatal/go-hello-world
     tektonci/build-namespace: ozone
     tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=master'
+    backstage.io/techdocs-ref: 'https://github.com/binkkatal/go-hello-world/blob/master/README.md'
 spec:
   type: service
   lifecycle: unknown
