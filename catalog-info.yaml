@@ -6,6 +6,7 @@ metadata:
     tektonci/build-namespace: ozone
     tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=main'
     backstage.io/techdocs-ref: 'https://github.com/binkkatal/go-hello-world/blob/master/README.md'
+    backstage.io/kubernetes-id: 'attachbeta'
   name: jquad-microservice
   description: JQuad Microservice
 spec:
