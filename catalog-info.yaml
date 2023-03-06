@@ -4,7 +4,9 @@ metadata:
   name: go-hello-world
   annotations:
     github.com/project-slug: binkkatal/go-hello-world
+    tektonci/build-namespace: ozone
+    tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=master'
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: guests
