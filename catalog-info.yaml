@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: go-hello-world
+  namespace: default
   annotations:
-    github.com/project-slug: binkkatal/go-hello-world
     tektonci/build-namespace: ozone
-    tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=master'
-    backstage.io/techdocs-ref: 'https://github.com/binkkatal/go-hello-world/blob/master/README.md'
+    tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=main'
+  name: jquad-microservice
+  description: JQuad Microservice
 spec:
   type: service
-  lifecycle: unknown
-  owner: guests
+  lifecycle: production
+  owner: user:guest
