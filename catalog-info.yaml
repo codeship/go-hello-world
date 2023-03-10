@@ -9,7 +9,7 @@ metadata:
     backstage.io/kubernetes-id: 'attachbeta'
     backstage.io/kubernetes-label-selector: 'attachbeta'
   name: jquad-microservice
-  description: JQuad Microservice
+  description: hello-world-microservice
 spec:
   type: service
   lifecycle: production
