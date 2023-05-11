@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: default
+  annotations:
+    tektonci/build-namespace: ozone
+    tektonci/pipeline-label-selector: 'pipeline.jquad.rocks/git.repository.branch.name=main'
+    backstage.io/techdocs-ref: 'https://github.com/binkkatal/go-hello-world/blob/master/README.md'
+    backstage.io/kubernetes-id: 'attachbeta'
+    backstage.io/kubernetes-label-selector: 'attachbeta'
+    ozone.com/microservice-slug: ozone-api-server
+  name: ozone-api-server
+  description: ozone-api-server
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
