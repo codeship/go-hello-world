@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: 'https://github.com/binkkatal/go-hello-world/blob/master/README.md'
     backstage.io/kubernetes-id: 'attachbeta'
     backstage.io/kubernetes-label-selector: 'attachbeta'
-    ozone.com/microservice-slug: ozone-api-server
+    ozone.com/microservice-slug: hello-world
   name: go-hello-world
   description: hello-world-microservice
 spec:
