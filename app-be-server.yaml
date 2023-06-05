@@ -10,7 +10,7 @@ metadata:
     backstage.io/kubernetes-label-selector: 'attachbeta'
     ozone.com/microservice-slug: ozone-api-server
   name: ozone-api-server
-  description: ozone-api-server
+  description: 'ozone-api-server'
 spec:
   type: service
   lifecycle: production
